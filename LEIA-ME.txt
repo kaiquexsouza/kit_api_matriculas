@@ -1,0 +1,41 @@
+API DE MATRÍCULAS - KIT INICIAL
+Integração de Aplicações - Prática em dupla ou trio
+
+==================================================
+1) INSTALAR (uma vez só, precisa de internet)
+==================================================
+    python -m pip install -r requirements.txt
+
+(Se "python" não funcionar, use "py" ou "python3", igual ao lab.)
+
+==================================================
+2) RODAR (com o terminal DENTRO desta pasta)
+==================================================
+    fastapi dev main.py
+
+Se aparecer que o comando fastapi não existe:
+    python -m fastapi dev main.py
+
+==================================================
+3) ABRIR A DOCUMENTAÇÃO NO NAVEGADOR
+==================================================
+    http://127.0.0.1:8000/docs
+
+O terminal fica "preso" mostrando os pedidos que chegam: é um servidor,
+igual aos Apps B e C do lab. Para parar: Ctrl+C.
+Cada vez que você salva o main.py, a API reinicia sozinha
+(e as vagas voltam ao início, porque ficam na memória).
+
+==================================================
+ARQUIVOS
+==================================================
+main.py            a API: é aqui que vocês trabalham
+requirements.txt   a dependência do projeto (FastAPI)
+README_modelo.md   modelo do README que vocês entregam (renomeiem para README.md)
+
+==================================================
+O QUE FAZER
+==================================================
+Abram o main.py e procurem por "TODO".
+A rota GET /disciplinas já está pronta e documentada: usem como modelo.
+O passo a passo completo está no roteiro da prática.
