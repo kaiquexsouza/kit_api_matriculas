@@ -4,7 +4,9 @@
 
 ## O que a API faz
 
-Escreva aqui, com as palavras do grupo, o que a API faz e quais são as regras.
+  "API do sistema acadêmico para consultar disciplinas e registrar ou cancelar matrículas. "
+  "A cada matrícula, a disciplina deve ter vagas disponíveis. O campo credits deve ser maior que zero "
+  "e a disponibilidade de vagas é atualizada em tempo real."
 
 ## Como rodar
 
@@ -31,10 +33,14 @@ Pedido (`POST /matriculas`):
 ```
 
 Resposta (201):
-
-```json
-cole aqui a resposta que a API de vocês devolveu
-```
+{
+  "id": 2,
+  "student_id": "A100",
+  "course_id": "BD101",
+  "term": "2026.1",
+  "credits": 4,
+  "status": "ativa"
+}
 
 ## Bônus que fizemos
 
